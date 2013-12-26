@@ -52,21 +52,31 @@ MLA14.module('Views.Session', function(Session, App, Backbone, Marionette, $, _,
 
     toggleSessions: function(e) {
 
-      // Offset height depends on support for position:sticky.
-      var offsetHeight = document.body.scrollTop,
-          headerHeight = ($(e.target).css('position').indexOf('sticky') !== -1) ? 99 : 66, targetOffset;
-
       // Prevent default link action (select-y).
       e.preventDefault();
 
       // Toggle sessions.
-      App.Content.$el.toggleClass('collapsed');
+      if(App.Content.$el.hasClass('collapsed')) {
 
-      // Get offset of clicked subhead.
-      targetOffset = e.target.getBoundingClientRect();
+        // Get current scroll position.
+        var offsetHeight = document.body.scrollTop,
+            headerHeight, targetOffset;
 
-      // Scroll to the clicked subhead.
-      document.body.scrollTop = targetOffset.top + offsetHeight - headerHeight;
+        App.Content.$el.removeClass('collapsed');
+
+        // Get offset of clicked subhead.
+        targetOffset = e.target.getBoundingClientRect();
+
+        // Offset height depends on support for position:sticky.
+        headerHeight = ($(e.target).css('position').indexOf('sticky') !== -1) ? 99 : 66;
+
+        // Scroll to the clicked subhead.
+        document.body.scrollTop = Math.max(targetOffset.top + offsetHeight - headerHeight, 0);
+
+      } else {
+        App.Content.$el.addClass('collapsed');
+        document.body.scrollTop = 0;
+      }
 
     },
 
