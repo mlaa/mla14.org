@@ -74,7 +74,7 @@
                 <title>A Screening of <em>Eight Men Out</em>, a Film by John Sayles</title>
                 <date>9 January</date>
                 <day num="1" abbrev="th" ambig="Thurs.">Thursday</day>
-                <start-time abbrev="18" minutes="30" ambig="eve" header="6 p.m.">6:30 p.m.</start-time>
+                <start-time abbrev="18" minutes="30" ambig="eve" header="6:30 p.m.">6:30 p.m.</start-time>
                 <end-time abbrev="20" minutes="45" ambig="eve">8:45 p.m.</end-time>
                 <venue>Chicago Marriott</venue>
                 <room>Grand I</room>
@@ -211,7 +211,7 @@
                         </xsl:choose>
                     </xsl:variable>
 
-                    <start-time abbrev="{$start-time-abbrev}" minutes="{regex-group(2)}" ambig="{$start-time-ambiguation}" header="{regex-group(1)} {$start-meridien}">
+                    <start-time abbrev="{$start-time-abbrev}" minutes="{regex-group(2)}" ambig="{$start-time-ambiguation}" header="{regex-group(1)}:{regex-group(2)} {$start-meridien}">
                         <xsl:value-of select="regex-group(1)"/>:<xsl:value-of select="regex-group(2)"/><xsl:text> </xsl:text><xsl:value-of select="$start-meridien"/>
                     </start-time>
 
