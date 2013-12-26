@@ -1,0 +1,20 @@
+{
+  "name": "mla14.org",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "http://mla14.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~1.10"
+  },
+  "devDependencies": {
+    "backbone": "~1.1.0",
+    "backbone.marionette": "~1.4.1",
+    "underscore": "~1.5.2"
+  }
+}

@@ -1,0 +1,7 @@
+aws-credentials.json
+node_modules
+app/bower_components
+app/build
+xml/archive
+.DS_Store
+.AppleDouble

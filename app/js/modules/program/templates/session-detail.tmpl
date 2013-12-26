@@ -1,0 +1,12 @@
+<h2 class="text-head"><%= header %></h2>
+<div class="text">
+  <h3><%= title %></h3>
+  <h4><%= cal %></h4>
+  <% _.each(text, function(para) { %>
+    <p><%= para %></p>
+  <% }); %>
+</div>
+<div id="session-footer" class="section session-component">
+  <!-- Inline-block lists must be stripped of white space. -->
+  <ul class="actions"><li><a class="back-icon" href="#<%= previousSessionId %>">Previous</a></li><li><a class="tweet-icon" href="https://twitter.com/intent/tweet?hashtags=mla14%2C<%= hashtag %>&amp;text=&amp;url=http%3A%2F%2Fmla14.org%2F<%= id %>" target="_blank">#mla14 #<%= hashtag %></a></li><li><a class="forward-icon" href="#<%= nextSessionId %>">Next</a></li></ul>
+</div>

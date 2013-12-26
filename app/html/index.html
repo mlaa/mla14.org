@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+
+  <head>
+    <%= head/meta.html %>
+    <%= head/icons.html %>
+    <link rel="stylesheet" href="/src/main.min.css" inline="true">
+    <title>MLA 2014</title>
+  </head>
+
+  <body>
+
+    <div id="header">
+      <div id="skyline"></div>
+      <div id="masthead">
+        <%= etc/banner.html %>
+        <%= etc/search.html %>
+      </div>
+      <%= etc/tabs.html %>
+    </div>
+
+    <div id="app">
+      <div id="loading"><p>Loading program data .&#160;.&#160;.</div>
+      <div id="content"></div>
+      <%= etc/noscript.html %>
+      <%= etc/actions.html %>
+    </div>
+
+    <script src="/src/components.min.js" inline="true"></script>
+    <script src="/src/app.min.js" inline="true"></script>
+
+  </body>
+
+</html>
