@@ -59,7 +59,7 @@ MLA14.module('Views.Session', function(Session, App, Backbone, Marionette, $, _,
       if(App.Content.$el.hasClass('collapsed')) {
 
         // Get current scroll position.
-        var offsetHeight = document.body.scrollTop,
+        var offsetHeight = document.body.scrollTop || document.documentElement.scrollTop || 0,
             headerHeight, targetOffset;
 
         App.Content.$el.removeClass('collapsed');
@@ -71,11 +71,11 @@ MLA14.module('Views.Session', function(Session, App, Backbone, Marionette, $, _,
         headerHeight = ($(e.target).css('position').indexOf('sticky') !== -1) ? 99 : 66;
 
         // Scroll to the clicked subhead.
-        document.body.scrollTop = Math.max(targetOffset.top + offsetHeight - headerHeight, 0);
+        document.body.scrollTop = document.documentElement.scrollTop = Math.max(targetOffset.top + offsetHeight - headerHeight, 0);
 
       } else {
         App.Content.$el.addClass('collapsed');
-        document.body.scrollTop = 0;
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
       }
 
     },

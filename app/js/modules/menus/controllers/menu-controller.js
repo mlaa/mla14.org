@@ -27,7 +27,7 @@ MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
     var isHome = (Backbone.history.fragment === '');
 
     // Scroll to top of the window.
-    document.body.scrollTop = 0;
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
 
     // Remove "collapsed" class, if present.
     $els.content.removeClass('collapsed');
@@ -48,7 +48,7 @@ MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
   _saveMenuState = function() {
     Menu.stateCache.push({
       fragment: Backbone.history.fragment,
-      scrollPos: document.body.scrollTop || 0
+      scrollPos: document.body.scrollTop || document.documentElement.scrollTop || 0
     });
   },
 
@@ -62,7 +62,7 @@ MLA14.module('Controllers.Menu', function(Menu, App, Backbone, Marionette) {
     Backbone.history.navigate(state.fragment || section || '', true);
 
     // Set scroll position.
-    document.body.scrollTop = state.scrollPos;
+    document.body.scrollTop = document.documentElement.scrollTop = state.scrollPos;
 
   },
 
