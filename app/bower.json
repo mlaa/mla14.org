@@ -10,9 +10,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "jquery": "~1.10"
-  },
-  "devDependencies": {
+    "jquery": "~1.10",
     "backbone": "~1.1.0",
     "backbone.marionette": "~1.4.1",
     "underscore": "~1.5.2"
