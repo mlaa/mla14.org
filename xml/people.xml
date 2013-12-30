@@ -2838,14 +2838,6 @@
          <session>257</session>
       </sessions>
    </person>
-   <person id="181329" sort="B">
-      <first>Renate</first>
-      <last>Brosch</last>
-      <sessions>
-         <count>1</count>
-         <session>455</session>
-      </sessions>
-   </person>
    <person id="181492" sort="B">
       <first>Marcel</first>
       <last>Brousseau</last>
@@ -4470,14 +4462,6 @@
       <sessions>
          <count>1</count>
          <session>441</session>
-      </sessions>
-   </person>
-   <person id="134659" sort="C">
-      <first>Ben</first>
-      <last>Conisbee Baer</last>
-      <sessions>
-         <count>1</count>
-         <session>320</session>
       </sessions>
    </person>
    <person id="61081" sort="C">
@@ -11747,6 +11731,14 @@
       <sessions>
          <count>1</count>
          <session>286</session>
+      </sessions>
+   </person>
+   <person id="177286" sort="K">
+      <first>Biliana</first>
+      <last>Kassabova</last>
+      <sessions>
+         <count>1</count>
+         <session>237</session>
       </sessions>
    </person>
    <person id="179827" sort="K">
@@ -19693,14 +19685,6 @@
          <session>248</session>
       </sessions>
    </person>
-   <person id="181215" sort="R">
-      <first>Karel</first>
-      <last>Rose</last>
-      <sessions>
-         <count>1</count>
-         <session>236</session>
-      </sessions>
-   </person>
    <person id="113975" sort="R">
       <first>Sven-Erik</first>
       <last>Rose</last>
@@ -22201,14 +22185,6 @@
          <session>600</session>
       </sessions>
    </person>
-   <person id="20074935" sort="S">
-      <first>Ronen</first>
-      <last>Steinberg</last>
-      <sessions>
-         <count>1</count>
-         <session>237</session>
-      </sessions>
-   </person>
    <person id="50822" sort="S">
       <first>Julia Ann</first>
       <last>Stern</last>
@@ -22925,14 +22901,6 @@
       <sessions>
          <count>1</count>
          <session>771</session>
-      </sessions>
-   </person>
-   <person id="115917" sort="T">
-      <first>Rhondda</first>
-      <last>Thomas</last>
-      <sessions>
-         <count>1</count>
-         <session>384</session>
       </sessions>
    </person>
    <person id="95387" sort="T">
