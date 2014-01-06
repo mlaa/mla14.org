@@ -2243,8 +2243,9 @@
       <first>Florence S.</first>
       <last>Boos</last>
       <sessions>
-         <count>1</count>
+         <count>2</count>
          <session>43</session>
+         <session>585</session>
       </sessions>
    </person>
    <person id="69911" sort="B">
@@ -2934,6 +2935,14 @@
          <session>309</session>
       </sessions>
    </person>
+   <person id="20080929" sort="B">
+      <first>Susan</first>
+      <last>Brown</last>
+      <sessions>
+         <count>1</count>
+         <session>526</session>
+      </sessions>
+   </person>
    <person id="127032" sort="B">
       <first>William Christopher</first>
       <last>Brown</last>
@@ -3149,14 +3158,6 @@
       <sessions>
          <count>1</count>
          <session>607</session>
-      </sessions>
-   </person>
-   <person id="181565" sort="B">
-      <first>Adam</first>
-      <last>Burbage</last>
-      <sessions>
-         <count>1</count>
-         <session>526</session>
       </sessions>
    </person>
    <person id="170746" sort="B">
@@ -5019,14 +5020,6 @@
       <sessions>
          <count>1</count>
          <session>486</session>
-      </sessions>
-   </person>
-   <person id="47918" sort="D">
-      <first>David</first>
-      <last>Damrosch</last>
-      <sessions>
-         <count>1</count>
-         <session>435</session>
       </sessions>
    </person>
    <person id="155325" sort="D">
@@ -10917,14 +10910,6 @@
          <session>305</session>
       </sessions>
    </person>
-   <person id="181553" sort="I">
-      <first>Jenna</first>
-      <last>Ingalls</last>
-      <sessions>
-         <count>1</count>
-         <session>496</session>
-      </sessions>
-   </person>
    <person id="150952" sort="I">
       <first>Rebecca</first>
       <last>Ingram</last>
@@ -13559,14 +13544,6 @@
          <session>784</session>
       </sessions>
    </person>
-   <person id="173133" sort="L">
-      <first>Florian</first>
-      <last>Lippert</last>
-      <sessions>
-         <count>1</count>
-         <session>244</session>
-      </sessions>
-   </person>
    <person id="116664" sort="L">
       <first>Valerie B.</first>
       <last>Lipscomb</last>
@@ -14427,14 +14404,6 @@
          <session>192</session>
       </sessions>
    </person>
-   <person id="30704" sort="M">
-      <first>Robert</first>
-      <last>Markley</last>
-      <sessions>
-         <count>1</count>
-         <session>792</session>
-      </sessions>
-   </person>
    <person id="158328" sort="M">
       <first>Christine</first>
       <last>Marks</last>
@@ -15227,15 +15196,6 @@
          <session>460</session>
       </sessions>
    </person>
-   <person id="84213" sort="M">
-      <first>Sarah</first>
-      <last>McNamer</last>
-      <sessions>
-         <count>2</count>
-         <session>401</session>
-         <session>497</session>
-      </sessions>
-   </person>
    <person id="157332" sort="M">
       <first>Erin</first>
       <last>McNellis</last>
@@ -15406,14 +15366,6 @@
       <sessions>
          <count>1</count>
          <session>83</session>
-      </sessions>
-   </person>
-   <person id="181392" sort="M">
-      <first>Julia</first>
-      <last>Menzel</last>
-      <sessions>
-         <count>1</count>
-         <session>780</session>
       </sessions>
    </person>
    <person id="112208" sort="M">
@@ -18342,12 +18294,12 @@
          <session>808</session>
       </sessions>
    </person>
-   <person id="181049" sort="P">
-      <first>Michael</first>
-      <last>Poston</last>
+   <person id="119434" sort="P">
+      <first>Terrence</first>
+      <last>Potter</last>
       <sessions>
          <count>1</count>
-         <session>724</session>
+         <session>261</session>
       </sessions>
    </person>
    <person id="92182" sort="P">
