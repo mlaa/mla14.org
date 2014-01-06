@@ -61,7 +61,7 @@
 
     <!-- Master template -->
 
-    <xsl:template match="CONV_QUARK_XML">
+    <xsl:template match="CONV_PROG_PARTICIPANT_XML">
 
         <!-- First pass (XML) -->
         <xsl:variable name="program">
