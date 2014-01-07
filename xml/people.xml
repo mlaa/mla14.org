@@ -2831,14 +2831,6 @@
          <session>735</session>
       </sessions>
    </person>
-   <person id="107002" sort="B">
-      <first>Sarah</first>
-      <last>Brophy</last>
-      <sessions>
-         <count>1</count>
-         <session>257</session>
-      </sessions>
-   </person>
    <person id="181492" sort="B">
       <first>Marcel</first>
       <last>Brousseau</last>
@@ -12260,14 +12252,6 @@
          <session>556</session>
       </sessions>
    </person>
-   <person id="95587" sort="K">
-      <first>Stacy S.</first>
-      <last>Klein</last>
-      <sessions>
-         <count>1</count>
-         <session>743</session>
-      </sessions>
-   </person>
    <person id="39544" sort="K">
       <first>Christopher</first>
       <last>Kleinhenz</last>
@@ -13844,14 +13828,6 @@
          <session>339</session>
       </sessions>
    </person>
-   <person id="160947" sort="L">
-      <first>Elizabeth</first>
-      <last>Lowe</last>
-      <sessions>
-         <count>1</count>
-         <session>439</session>
-      </sessions>
-   </person>
    <person id="31877" sort="L">
       <first>John Wharton</first>
       <last>Lowe</last>
@@ -15220,15 +15196,6 @@
          <session>310</session>
       </sessions>
    </person>
-   <person id="80510" sort="M">
-      <first>Robert</first>
-      <last>McRuer</last>
-      <sessions>
-         <count>2</count>
-         <session>652</session>
-         <session>766</session>
-      </sessions>
-   </person>
    <person id="181043" sort="M">
       <first>Calum</first>
       <last>Mechie</last>
@@ -15283,6 +15250,14 @@
       <sessions>
          <count>1</count>
          <session>678</session>
+      </sessions>
+   </person>
+   <person id="160074" sort="M">
+      <first>Alan</first>
+      <last>Melby</last>
+      <sessions>
+         <count>1</count>
+         <session>439</session>
       </sessions>
    </person>
    <person id="74006" sort="M">
@@ -16154,6 +16129,14 @@
          <session>392</session>
       </sessions>
    </person>
+   <person id="20078882" sort="M">
+      <first>Fred</first>
+      <last>Moten</last>
+      <sessions>
+         <count>1</count>
+         <session>735</session>
+      </sessions>
+   </person>
    <person id="131549" sort="M">
       <first>Amy</first>
       <last>Motlagh</last>
@@ -16280,9 +16263,8 @@
       <first>José</first>
       <last>Muñoz</last>
       <sessions>
-         <count>2</count>
+         <count>1</count>
          <session>392</session>
-         <session>735</session>
       </sessions>
    </person>
    <person id="173935" sort="M">
@@ -18654,14 +18636,6 @@
       <sessions>
          <count>1</count>
          <session>545</session>
-      </sessions>
-   </person>
-   <person id="181257" sort="R">
-      <first>Dorothee</first>
-      <last>Racette</last>
-      <sessions>
-         <count>1</count>
-         <session>439</session>
       </sessions>
    </person>
    <person id="153154" sort="R">
@@ -21040,6 +21014,14 @@
          <session>725</session>
       </sessions>
    </person>
+   <person id="20080694" sort="S">
+      <first>Patrice</first>
+      <last>Shackleford</last>
+      <sessions>
+         <count>1</count>
+         <session>42</session>
+      </sessions>
+   </person>
    <person id="96603" sort="S">
       <first>Laurie</first>
       <last>Shannon</last>
@@ -21054,14 +21036,6 @@
       <sessions>
          <count>2</count>
          <session>115</session>
-         <session>228</session>
-      </sessions>
-   </person>
-   <person id="181142" sort="S">
-      <first>Abhimanyu</first>
-      <last>Sharma</last>
-      <sessions>
-         <count>1</count>
          <session>228</session>
       </sessions>
    </person>
@@ -23971,14 +23945,6 @@
       <sessions>
          <count>1</count>
          <session>196</session>
-      </sessions>
-   </person>
-   <person id="20073635" sort="W">
-      <first>James</first>
-      <last>Waller</last>
-      <sessions>
-         <count>1</count>
-         <session>45</session>
       </sessions>
    </person>
    <person id="181088" sort="W">
