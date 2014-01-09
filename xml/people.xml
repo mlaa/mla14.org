@@ -166,14 +166,6 @@
          <session>393</session>
       </sessions>
    </person>
-   <person id="162490" sort="A">
-      <first>Niyi</first>
-      <last>Afolabi</last>
-      <sessions>
-         <count>1</count>
-         <session>329</session>
-      </sessions>
-   </person>
    <person id="181375" sort="A">
       <first>Brenda</first>
       <last>Aghahowa</last>
@@ -9611,6 +9603,14 @@
          <session>485</session>
       </sessions>
    </person>
+   <person id="107865" sort="H">
+      <first>Stephen J.</first>
+      <last>Harris</last>
+      <sessions>
+         <count>1</count>
+         <session>743</session>
+      </sessions>
+   </person>
    <person id="30079" sort="H">
       <first>Susan K.</first>
       <last>Harris</last>
@@ -14929,14 +14929,6 @@
          <session>304</session>
       </sessions>
    </person>
-   <person id="155213" sort="M">
-      <first>Jamie</first>
-      <last>McDaniel</last>
-      <sessions>
-         <count>1</count>
-         <session>313</session>
-      </sessions>
-   </person>
    <person id="156308" sort="M">
       <first>Ronan Daniel</first>
       <last>McDonald</last>
@@ -16125,15 +16117,8 @@
       <first>Fred</first>
       <last>Moten</last>
       <sessions>
-         <count>1</count>
+         <count>2</count>
          <session>392</session>
-      </sessions>
-   </person>
-   <person id="20078882" sort="M">
-      <first>Fred</first>
-      <last>Moten</last>
-      <sessions>
-         <count>1</count>
          <session>735</session>
       </sessions>
    </person>
@@ -17985,14 +17970,6 @@
          <count>2</count>
          <session>219</session>
          <session>591</session>
-      </sessions>
-   </person>
-   <person id="124236" sort="P">
-      <first>Alexander E.</first>
-      <last>Pichugin</last>
-      <sessions>
-         <count>1</count>
-         <session>714</session>
       </sessions>
    </person>
    <person id="181410" sort="P">
@@ -20776,14 +20753,6 @@
          <session>701</session>
       </sessions>
    </person>
-   <person id="181174" sort="S">
-      <first>Peter</first>
-      <last>Schroeck</last>
-      <sessions>
-         <count>1</count>
-         <session>390</session>
-      </sessions>
-   </person>
    <person id="155754" sort="S">
       <first>Paul A.</first>
       <last>Schroeder Rodríguez</last>
@@ -23269,14 +23238,6 @@
          <session>305</session>
       </sessions>
    </person>
-   <person id="177182" sort="T">
-      <first>Yves</first>
-      <last>T’Sjoen</last>
-      <sessions>
-         <count>1</count>
-         <session>115</session>
-      </sessions>
-   </person>
    <person id="24388" sort="U">
       <first>Sharon Keefe</first>
       <last>Ugalde</last>
@@ -23753,6 +23714,14 @@
       <sessions>
          <count>1</count>
          <session>648</session>
+      </sessions>
+   </person>
+   <person id="133381" sort="V">
+      <first>Shane</first>
+      <last>Vogel</last>
+      <sessions>
+         <count>1</count>
+         <session>735</session>
       </sessions>
    </person>
    <person id="101240" sort="V">
